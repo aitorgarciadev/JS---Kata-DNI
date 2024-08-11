@@ -7,8 +7,8 @@ describe("calculateLetter", () => {
     expect(calculateLetter(71975319)).toBe("Q");
   });
 
-  it('should return "E" for DNI number 99999998', () => {
-    expect(calculateLetter(99999998)).toBe("E");
+  it('should return "T" for DNI number 99999998', () => {
+    expect(calculateLetter(99999998)).toBe("T");
   });
 
   it('should return "T" for DNI number 0', () => {
